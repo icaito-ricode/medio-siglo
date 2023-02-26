@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;  
+}
+
+.agrupar{
+  width: 960px;
+  margin: 25px auto;
+  background: bisque;
+  border: 2px solid black;
+}
+
+.titulo{
+  font-size: 25px;
+  background: blue;
+  color: whitesmoke;
+}
+
+h1{
+  font-family: cursive;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.titulo:hover{
+  background: grey;
+  color: black;
+}
+
+.navegacion{
+  background: red;
+  color: blue;
+  padding: 5px 15px;
+  text-align: right;
+  border: 2px solid black;
+}
+.navegacion li{
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+.navegacion li a{
+  text-decoration: none;
+}
+
+.navegacion a::after{
+  content: " I ";
+}
+
+
+.secciones{
+  border: 1px solid black;
+  background: grey;
+  margin: 20px;
+  width: 600px;
+  float: left;
+}
+
+img{
+  margin: 20px;
+  border-radius: 20%;
+}
+
+article{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+time{
+  color: #999;
+}
+
+p{
+  margin: 20px;
+}
+
+h2{
+  background: yellow;
+  color: brown;
+  margin: 20px;
+}
+
+h3{
+  background: green;
+  color: brown;
+  margin: 20px;
+}
+
+.pie{
+  color: aqua;
+  text-align: right;
+  margin: 20px;
+}
+
+.complemento{
+  width: 300px;
+  float: left;
+  margin: 20px 0;
+}
+
+.complemento blockquote{
+  background: orange;
+  color: aqua;
+  border: 1px dashed black;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.pie_de_pagina{
+  background: goldenrod;
+  color: grey; 
+  border: 2px solid black;
+  clear: both;
+}
+
